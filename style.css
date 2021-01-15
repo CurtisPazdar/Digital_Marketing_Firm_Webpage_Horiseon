@@ -1,0 +1,233 @@
+* {
+  /*to adjust all elements padding and margin in one place*/
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  /*Set the background color of the body*/
+  background-color: #d9dcd6;
+}
+
+.header {
+  /* Establish the additional padding, font, background color of the header and font color */
+  padding: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: #2a607c;
+  color: #ffffff;
+}
+
+.header h1 {
+  /* Display style for the "Horiseon" logo as well as font size. This element is in the top left corner of the screen */
+  display: inline-block;
+  font-size: 48px;
+}
+
+.header h1 .seo {
+  /* Changes the color of the font in the "Horiseon" logo for the letters seo. Element is display in top left corner of screen */
+  color: #d9dcd6;
+}
+
+.header div {
+  /* Creates an area for the list of services offered by the firm. This element can be found in the top right corner of the screen.  */
+  padding-top: 15px;
+  margin-right: 20px;
+  float: right;
+  font-family: "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS",
+    sans-serif;
+  font-size: 20px;
+}
+
+.header div ul {
+  /* The bullet/numbering style for the list of services in the header. Currently set to no bulleting, numbering, lettering necessary. */
+  list-style-type: none;
+}
+
+.header div ul li {
+  /* Area to adjust list in the header top right corner item display style and margin-left. */
+  display: inline-block;
+  margin-left: 25px;
+}
+
+a {
+  /* Set the font color and any extra decoration to the list options in the header right hand side.  */
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.search-engine-optimization img {
+  /* Change height for the search engine optimization photo. */
+  max-height: 200px;
+}
+
+.online-reputation-management img {
+  /* Change height for the online reputation management photo. */
+  max-height: 200px;
+}
+
+.social-media-marketing img {
+  /* Change height for the social media marketing photo. */
+  max-height: 200px;
+}
+
+.search-engine-optimization h2 {
+  /* Change margin bottom and font size for the header Search Engine Optimization. Found adjacent to its photo on the webpage. */
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+
+.online-reputation-management h2 {
+  /* Change margin bottom and font size for the header Online Reputation Management. Found adjacent to its photo on the webpage. */
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+
+.social-media-marketing h2 {
+  /* Change margin bottom and font size for the Header Social Media Marketing. Found adjacent to its photo on the webpage. */
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+
+.hero {
+  /* Main image of the webpage. Area to adjust height, width, margin, background size, background position, and finally the url for the photo itself. */
+  height: 800px;
+  width: 100%;
+  margin-bottom: 25px;
+  background-image: url("./assets/images/digital-marketing-meeting.jpg");
+  background-size: cover;
+  background-position: left;
+}
+
+.content {
+  /* The display style and margin for the main content beneath the main photo in the middle of the page. This is made of up of the three sections search engine optimization, online reputation management, and social media marketing. */
+  width: 75%;
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.float-left {
+  /* Sets the search engine optimization section and the social media marketing section to have their elements come in from the left hand side. Set margin and font size.  */
+  float: left;
+  margin-right: 75px;
+  font-size: large;
+}
+
+.float-right {
+  /* Sets the online reputation management section to have its elements come in from the right hand side. Set margin and font size. */
+  float: right;
+  margin-left: 75px;
+  font-size: large;
+}
+
+.benefits {
+  /* Setting the display style for the aside section of the webpage and place to adjust its sizing, font, background color, and position */
+  margin-right: 20px;
+  padding: 20px;
+  clear: both;
+  float: right;
+  width: 20%;
+  height: 100%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #2589bd;
+}
+
+.search-engine-optimization {
+  /* Sets the display style, font, background color and size of the search engine optimization article area. */
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 300px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #0072bb;
+  color: #ffffff;
+}
+
+.online-reputation-management {
+  /* Sets the display style, font, background color and size of the online reputation management article area. */
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 300px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #0072bb;
+  color: #ffffff;
+}
+
+.social-media-marketing {
+  /* Sets the display style, font, background color and size of the social media marketing article area. */
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 300px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #0072bb;
+  color: #ffffff;
+}
+
+.benefit-lead {
+  /* Establishes margin and font color for benefit lead section on aside. */
+  margin-bottom: 32px;
+  color: #ffffff;
+}
+
+.benefit-lead h3 {
+  /* Margin and text alignment for the benefit lead header in the aside. */
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.benefit-lead img {
+  /* Margin, width, and display style for the benefit lead generation icon found in the aside. */
+  display: block;
+  margin: 10px auto;
+  max-width: 150px;
+}
+
+.benefit-brand {
+  /* Establishes margin and font color for benefit brand section on aside. */
+  margin-bottom: 32px;
+  color: #ffffff;
+}
+
+.benefit-brand h3 {
+  /* Margin and text alignment for the benefit brand header in the aside. */
+  margin-bottom: 10px;
+  text-align: center;
+}
+.benefit-brand img {
+  /* Margin, width, and display style for the benefit brand icon found in the aside. */
+  display: block;
+  margin: 10px auto;
+  max-width: 150px;
+}
+
+.benefit-cost {
+  /* Establishes margin and font color for benefit cost section on aside. */
+  margin-bottom: 32px;
+  color: #ffffff;
+}
+.benefit-cost h3 {
+  /* Margin and text alignment for the benefit cost header in the aside. */
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.benefit-cost img {
+  /* Margin, width, and display style for the benefit cost icon found in the aside. */
+  display: block;
+  margin: 10px auto;
+  max-width: 150px;
+}
+
+.footer {
+  /* Display style, text alignment, and font for the footer. */
+  padding: 30px;
+  clear: both;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+}
+
+.footer h2 {
+  /* font size for the Made by Horiseon in the footer */
+  font-size: 20px;
+}
